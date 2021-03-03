@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<suite>
-    <test>
+<suite name="suite">
+    <!--<test name="login">-->
+    <!--<classes>-->
+        <!--<class name="com.imooc.chapter5.SuiteConfig"/>-->
+        <!--<class name="com.imooc.chapter5.LoginTest"/>-->
+    <!--</classes>-->
+<!--</test>-->
+    <test name="pay">
         <classes>
-            <class name="com.imooc.chapter5.TestSuite01"/>
+            <class name="com.imooc.chapter5.SuiteConfig"/>
+            <class name="com.imooc.chapter5.PayTest"/>
         </classes>
     </test>
 </suite>
